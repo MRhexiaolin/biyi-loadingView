@@ -1,0 +1,6 @@
+use_frameworks!
+target 'biyi-loadingView_Tests' do
+  pod 'biyi-loadingView', :path => '../'
+  
+  
+end
