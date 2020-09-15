@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # biyi-loadingView
 
 [![CI Status](https://img.shields.io/travis/hexiaolin/biyi-loadingView.svg?style=flat)](https://travis-ci.org/hexiaolin/biyi-loadingView)
@@ -27,3 +28,6 @@ hexiaolin, hexiaolin@ctsi.com.cn
 ## License
 
 biyi-loadingView is available under the MIT license. See the LICENSE file for more info.
+=======
+# biyi-loadingView
+>>>>>>> 0854109578827f651fe233548dc122f6a97f6823
