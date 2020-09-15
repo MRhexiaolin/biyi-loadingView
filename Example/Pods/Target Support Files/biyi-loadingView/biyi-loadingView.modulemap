@@ -1,0 +1,6 @@
+framework module biyi_loadingView {
+  umbrella header "biyi-loadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

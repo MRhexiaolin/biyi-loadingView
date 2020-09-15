@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EE7B15FD28753F14992B1AE17BD26FD /* biyi-loadingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6F8B29157A555E6F62875064408C696 /* biyi-loadingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B517BA21AD5FBAFA61AFC20037E923 /* Pods-biyi-loadingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB994A842EF702CF50DD3F201384D00 /* Pods-biyi-loadingView_Tests-dummy.m */; };
+		939C1DCC2A285044D3E42098C31B42E9 /* Pods-biyi-loadingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB8AA7D80EE91DB1773700A945F5DB7 /* Pods-biyi-loadingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A69FFD259FBBD39419F99C249F165F /* LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = B5CD8E14B3DCCE6DBCD23C0376977EF2 /* LoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5FC6A3B929B073044F59ED6DF7F929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C969B5DE31562C3A306D198B570677A9 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0F01F58D5823CA1456D9A17C021E99 /* LoadingView.m */; };
+		DA0FD6CB275E03C6DBBE53F299EB505A /* biyi-loadingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C0E614C17A1FFB04C1F2D0F0DAF2D9 /* biyi-loadingView-dummy.m */; };
+		E5DD7896FB0E7C063665B9F1B0FB941C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A8ABB6BD5B5391FE2426B2488D04C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 534B734F694A60DBB3669AB349A8C9A7;
+			remoteInfo = "biyi-loadingView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C078EB9659D9935EB9A2978220A6ED9 /* biyi-loadingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "biyi-loadingView-prefix.pch"; sourceTree = "<group>"; };
+		26F41551FAEB2C5D0F7E1A5F0ED0BD42 /* Pods-biyi-loadingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-biyi-loadingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C0F01F58D5823CA1456D9A17C021E99 /* LoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = "biyi-loadingView/Classes/LoadingView.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49907A1C43FF6EE5C9F33131459F07BD /* Pods_biyi_loadingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_biyi_loadingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BECF1B705C47FE9C0203A2653328AA /* Pods-biyi-loadingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-biyi-loadingView_Tests.modulemap"; sourceTree = "<group>"; };
+		5C14CC357C71A6304ADF476D6EB2BFEC /* biyi-loadingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "biyi-loadingView.xcconfig"; sourceTree = "<group>"; };
+		8CB612544D08A161FEB18984857FA95B /* Pods-biyi-loadingView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-biyi-loadingView_Tests-Info.plist"; sourceTree = "<group>"; };
+		98D4CAE9CF74EAC4BB69D23FFE8DCEF2 /* biyi_loadingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = biyi_loadingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9936D7D4DCF884285128E50EF15AF98D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DB994A842EF702CF50DD3F201384D00 /* Pods-biyi-loadingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-biyi-loadingView_Tests-dummy.m"; sourceTree = "<group>"; };
+		A1C9B5769876F6CA5B24E3CAC8EFFD1E /* Pods-biyi-loadingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-biyi-loadingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A46C2DA0C085CDFEED51774FF3DD9B2C /* biyi-loadingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "biyi-loadingView.podspec"; sourceTree = "<group>"; tabWidth = 2; };
+		ABE087D225C9AC32123238EC57E1A025 /* Pods-biyi-loadingView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-biyi-loadingView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B1ECDFEA47E5451F2B7B174DABB6FFE4 /* biyi-loadingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "biyi-loadingView.modulemap"; sourceTree = "<group>"; };
+		B5CD8E14B3DCCE6DBCD23C0376977EF2 /* LoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = "biyi-loadingView/Classes/LoadingView.h"; sourceTree = "<group>"; };
+		BA4115AE22360AF64BC2DB22441765A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E4631A83F24950059B67CFC4C3A05571 /* biyi-loadingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "biyi-loadingView-Info.plist"; sourceTree = "<group>"; };
+		E6C0E614C17A1FFB04C1F2D0F0DAF2D9 /* biyi-loadingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "biyi-loadingView-dummy.m"; sourceTree = "<group>"; };
+		F2CA06D82DD57FAA81412AE5EEB6CA4C /* Pods-biyi-loadingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-biyi-loadingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F6F8B29157A555E6F62875064408C696 /* biyi-loadingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "biyi-loadingView-umbrella.h"; sourceTree = "<group>"; };
+		F71362362A0AC73FD982A8E2339F4CA8 /* Pods-biyi-loadingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-biyi-loadingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBB8AA7D80EE91DB1773700A945F5DB7 /* Pods-biyi-loadingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-biyi-loadingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A488895CFFE5CF26DD48C343F0956AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5FC6A3B929B073044F59ED6DF7F929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A414069AE1C7EF15D0683752E2C19B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5DD7896FB0E7C063665B9F1B0FB941C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29805A08F0C2395E6A5D1A5527DE176F /* Pods-biyi-loadingView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				51BECF1B705C47FE9C0203A2653328AA /* Pods-biyi-loadingView_Tests.modulemap */,
+				26F41551FAEB2C5D0F7E1A5F0ED0BD42 /* Pods-biyi-loadingView_Tests-acknowledgements.markdown */,
+				F71362362A0AC73FD982A8E2339F4CA8 /* Pods-biyi-loadingView_Tests-acknowledgements.plist */,
+				9DB994A842EF702CF50DD3F201384D00 /* Pods-biyi-loadingView_Tests-dummy.m */,
+				ABE087D225C9AC32123238EC57E1A025 /* Pods-biyi-loadingView_Tests-frameworks.sh */,
+				8CB612544D08A161FEB18984857FA95B /* Pods-biyi-loadingView_Tests-Info.plist */,
+				FBB8AA7D80EE91DB1773700A945F5DB7 /* Pods-biyi-loadingView_Tests-umbrella.h */,
+				A1C9B5769876F6CA5B24E3CAC8EFFD1E /* Pods-biyi-loadingView_Tests.debug.xcconfig */,
+				F2CA06D82DD57FAA81412AE5EEB6CA4C /* Pods-biyi-loadingView_Tests.release.xcconfig */,
+			);
+			name = "Pods-biyi-loadingView_Tests";
+			path = "Target Support Files/Pods-biyi-loadingView_Tests";
+			sourceTree = "<group>";
+		};
+		30DCBC2EA80F5521D20E6BCDA485E793 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29805A08F0C2395E6A5D1A5527DE176F /* Pods-biyi-loadingView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		331EDEB21DDBCBA8C0FE9C95DDDC9B70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1ECDFEA47E5451F2B7B174DABB6FFE4 /* biyi-loadingView.modulemap */,
+				5C14CC357C71A6304ADF476D6EB2BFEC /* biyi-loadingView.xcconfig */,
+				E6C0E614C17A1FFB04C1F2D0F0DAF2D9 /* biyi-loadingView-dummy.m */,
+				E4631A83F24950059B67CFC4C3A05571 /* biyi-loadingView-Info.plist */,
+				0C078EB9659D9935EB9A2978220A6ED9 /* biyi-loadingView-prefix.pch */,
+				F6F8B29157A555E6F62875064408C696 /* biyi-loadingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/biyi-loadingView";
+			sourceTree = "<group>";
+		};
+		3B74E2909CB9C751CD535BABCC0295AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A46C2DA0C085CDFEED51774FF3DD9B2C /* biyi-loadingView.podspec */,
+				9936D7D4DCF884285128E50EF15AF98D /* LICENSE */,
+				BA4115AE22360AF64BC2DB22441765A5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		456159FFD4F4D88FA4A45A50FF01813A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D4CAE9CF74EAC4BB69D23FFE8DCEF2 /* biyi_loadingView.framework */,
+				49907A1C43FF6EE5C9F33131459F07BD /* Pods_biyi_loadingView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A0AA0F92628FD4BF459C3165594BA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0733BEF4643F7E572BCDBAB1BFB4345 /* biyi-loadingView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				71A0AA0F92628FD4BF459C3165594BA4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				456159FFD4F4D88FA4A45A50FF01813A /* Products */,
+				30DCBC2EA80F5521D20E6BCDA485E793 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0733BEF4643F7E572BCDBAB1BFB4345 /* biyi-loadingView */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD8E14B3DCCE6DBCD23C0376977EF2 /* LoadingView.h */,
+				2C0F01F58D5823CA1456D9A17C021E99 /* LoadingView.m */,
+				3B74E2909CB9C751CD535BABCC0295AE /* Pod */,
+				331EDEB21DDBCBA8C0FE9C95DDDC9B70 /* Support Files */,
+			);
+			name = "biyi-loadingView";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22C7985C10495DFA9C1216DEB6974454 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939C1DCC2A285044D3E42098C31B42E9 /* Pods-biyi-loadingView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7217A5D3E64821E9E2540544C478903 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EE7B15FD28753F14992B1AE17BD26FD /* biyi-loadingView-umbrella.h in Headers */,
+				A7A69FFD259FBBD39419F99C249F165F /* LoadingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		534B734F694A60DBB3669AB349A8C9A7 /* biyi-loadingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E9A24375E8BC7AD38C2A6BF29BCFB30 /* Build configuration list for PBXNativeTarget "biyi-loadingView" */;
+			buildPhases = (
+				B7217A5D3E64821E9E2540544C478903 /* Headers */,
+				1AC80BC2A43AE4057423C96CA9198B5B /* Sources */,
+				A414069AE1C7EF15D0683752E2C19B13 /* Frameworks */,
+				3605E042C3D27C3D143605FE46DD871C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "biyi-loadingView";
+			productName = "biyi-loadingView";
+			productReference = 98D4CAE9CF74EAC4BB69D23FFE8DCEF2 /* biyi_loadingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A10C779EBCC4A8B87ECD511A2430ED95 /* Pods-biyi-loadingView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 687EF0C431D64381D892F34CA22BAD35 /* Build configuration list for PBXNativeTarget "Pods-biyi-loadingView_Tests" */;
+			buildPhases = (
+				22C7985C10495DFA9C1216DEB6974454 /* Headers */,
+				29FB8F7E4E6D243DDFBC27A0991FBD47 /* Sources */,
+				6A488895CFFE5CF26DD48C343F0956AA /* Frameworks */,
+				821AC6E68CE3BE092D774F85E484EA4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74EDC5D87B0A5DFC2839A48D0EA90D43 /* PBXTargetDependency */,
+			);
+			name = "Pods-biyi-loadingView_Tests";
+			productName = "Pods-biyi-loadingView_Tests";
+			productReference = 49907A1C43FF6EE5C9F33131459F07BD /* Pods_biyi_loadingView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 456159FFD4F4D88FA4A45A50FF01813A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534B734F694A60DBB3669AB349A8C9A7 /* biyi-loadingView */,
+				A10C779EBCC4A8B87ECD511A2430ED95 /* Pods-biyi-loadingView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3605E042C3D27C3D143605FE46DD871C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821AC6E68CE3BE092D774F85E484EA4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC80BC2A43AE4057423C96CA9198B5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0FD6CB275E03C6DBBE53F299EB505A /* biyi-loadingView-dummy.m in Sources */,
+				C969B5DE31562C3A306D198B570677A9 /* LoadingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FB8F7E4E6D243DDFBC27A0991FBD47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B517BA21AD5FBAFA61AFC20037E923 /* Pods-biyi-loadingView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74EDC5D87B0A5DFC2839A48D0EA90D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "biyi-loadingView";
+			target = 534B734F694A60DBB3669AB349A8C9A7 /* biyi-loadingView */;
+			targetProxy = 8A8ABB6BD5B5391FE2426B2488D04C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A3C917A537FDEC353B0606DA3F1A525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C14CC357C71A6304ADF476D6EB2BFEC /* biyi-loadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/biyi-loadingView/biyi-loadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/biyi-loadingView/biyi-loadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/biyi-loadingView/biyi-loadingView.modulemap";
+				PRODUCT_MODULE_NAME = biyi_loadingView;
+				PRODUCT_NAME = biyi_loadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		895207B4FCF40562FB65868B699CD554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C14CC357C71A6304ADF476D6EB2BFEC /* biyi-loadingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/biyi-loadingView/biyi-loadingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/biyi-loadingView/biyi-loadingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/biyi-loadingView/biyi-loadingView.modulemap";
+				PRODUCT_MODULE_NAME = biyi_loadingView;
+				PRODUCT_NAME = biyi_loadingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D865482B5D56517A04633C73FC1AC98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CA06D82DD57FAA81412AE5EEB6CA4C /* Pods-biyi-loadingView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-biyi-loadingView_Tests/Pods-biyi-loadingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-biyi-loadingView_Tests/Pods-biyi-loadingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E92B68501B6C168B432D441205EF1544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C9B5769876F6CA5B24E3CAC8EFFD1E /* Pods-biyi-loadingView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-biyi-loadingView_Tests/Pods-biyi-loadingView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-biyi-loadingView_Tests/Pods-biyi-loadingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E9A24375E8BC7AD38C2A6BF29BCFB30 /* Build configuration list for PBXNativeTarget "biyi-loadingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895207B4FCF40562FB65868B699CD554 /* Debug */,
+				5A3C917A537FDEC353B0606DA3F1A525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		687EF0C431D64381D892F34CA22BAD35 /* Build configuration list for PBXNativeTarget "Pods-biyi-loadingView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92B68501B6C168B432D441205EF1544 /* Debug */,
+				D865482B5D56517A04633C73FC1AC98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - biyi-loadingView (0.1.0)
+
+DEPENDENCIES:
+  - biyi-loadingView (from `../`)
+
+EXTERNAL SOURCES:
+  biyi-loadingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  biyi-loadingView: a642b97443d552d0ac07fcbccd61178d253dd4e4
+
+PODFILE CHECKSUM: 97d65493c446b263ca84ff5a8e86a99fe4c4ae89
+
+COCOAPODS: 1.8.4
